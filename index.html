@@ -1,51 +1,108 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>MAHIN LTD - Portfolio</title> 
-    <link rel="stylesheet" href="css/style.css"> 
-</head> 
-<body> 
-    <header> 
-        <h1>Welcome to MAHIN LTD Portfolio</h1> 
-    </header> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAHIN LTD - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="MAHIN LTD Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="about"> 
-        <h2>About Us</h2> 
-        <p>We build apps and web projects. Managed by Tanvir (MAHIN LTD).</p> 
-    </section> 
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/profile.jpg" class="profile-pic" alt="Tanvir">
+    <h1>Hi, I'm Tanvir</h1>
+    <p>Founder of <b>MAHIN LTD</b>. I build apps and web projects with professional quality.</p>
+  </section>
 
-    <section id="projects"> 
-        <h2>Projects</h2> 
-        <ul> 
-            <li>⚡ YT-DLP Server (Render) - 
-                <a href="https://yt-dlp-render-figk.onrender.com" target="_blank">Live Demo</a>
-            </li> 
-        </ul> 
-        <img src="images/project.png" alt="Project Screenshot" width="400"> 
-    </section> 
+  <!-- Services -->
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="grid">
+      <div class="card">Web Development</div>
+      <div class="card">App Development</div>
+      <div class="card">Backend API</div>
+      <div class="card">UI/UX Design</div>
+    </div>
+  </section>
 
-    <section id="contact"> 
-        <h2>Contact Us</h2> 
-        <p>📧 Email: info.mahin.ltd@gmail.com</p> 
-        <p>🌐 GitHub: <a href="https://github.com/mahinltd" target="_blank">github.com/mahinltd</a></p> 
-        <p>👍 Facebook: <a href="https://www.facebook.com/tanvir8268" target="_blank">fb.com/tanvir8268</a></p> 
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Tanvir, the creator of <b>MAHIN LTD</b>. I focus on building modern, scalable,
+      and user-friendly applications. My expertise includes Flutter apps, APIs, and 
+      full-stack web development.
+    </p>
+  </section>
 
-        <!-- Contact Form -->
-        <form id="contactForm">
-            <input type="text" name="name" placeholder="Your Name" required><br><br>
-            <input type="email" name="email" placeholder="Your Email" required><br><br>
-            <textarea name="message" placeholder="Your Message" required></textarea><br><br>
-            <button type="submit">Send</button>
-        </form>
-    </section> 
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Flutter & Dart - 85%</li>
+      <li>Python - 75%</li>
+      <li>FastAPI & Backend - 80%</li>
+      <li>HTML, CSS, JS - 90%</li>
+    </ul>
+  </section>
 
-    <footer> 
-        <p>© 2025 Tanvir - MAHIN LTD</p> 
-    </footer> 
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Latest Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <img src="images/project.png" alt="Project">
+        <h3>Turnify - Local Music Player</h3>
+        <p>A Flutter based local-first music player with modern UI/UX.</p>
+      </div>
+      <div class="project">
+        <img src="images/project.png" alt="Project">
+        <h3>YT-DLP Server (Private API)</h3>
+        <p>Custom FastAPI backend with YT-DLP for educational purposes.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- JS Link -->
-    <script src="js/script.js"></script>
-</body> 
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">“Tanvir builds professional quality projects!”</div>
+      <div class="testimonial">“Great to work with, delivers on time.”</div>
+      <div class="testimonial">“High quality backend & frontend integration.”</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>Email: <a href="mailto:info.mahin.ltd@gmail.com">info.mahin.ltd@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/mahinltd" target="_blank">github.com/mahinltd</a></p>
+    <p>Facebook: <a href="https://facebook.com/tanvir8268" target="_blank">fb.com/tanvir8268</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Tanvir - MAHIN LTD</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
