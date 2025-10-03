@@ -1,108 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAHIN LTD - Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvir - Founder of MAHIN LTD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="logo">
-      <img src="images/logo.png" alt="MAHIN LTD Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <img src="images/profile.jpg" class="profile-pic" alt="Tanvir">
-    <h1>Hi, I'm Tanvir</h1>
-    <p>Founder of <b>MAHIN LTD</b>. I build apps and web projects with professional quality.</p>
-  </section>
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="MAHIN LTD Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Services -->
-  <section id="services">
-    <h2>My Services</h2>
-    <div class="grid">
-      <div class="card">Web Development</div>
-      <div class="card">App Development</div>
-      <div class="card">Backend API</div>
-      <div class="card">UI/UX Design</div>
-    </div>
-  </section>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I’m Tanvir</h1>
+                    <h2>Founder of MAHIN LTD</h2>
+                    <p>I build high-quality web and mobile applications, focusing on performance, user experience, and robust backend solutions. Let's create something amazing together.</p>
+                    <a href="#" class="btn">Download Resume</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Tanvir's Profile Photo">
+                </div>
+            </div>
+        </section>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m Tanvir, the creator of <b>MAHIN LTD</b>. I focus on building modern, scalable,
-      and user-friendly applications. My expertise includes Flutter apps, APIs, and 
-      full-stack web development.
-    </p>
-  </section>
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and dynamic websites using modern technologies like HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>App Development</h3>
+                        <p>Building cross-platform mobile apps for iOS and Android with a focus on performance using Flutter.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend API</h3>
+                        <p>Designing and developing robust and scalable RESTful APIs using Python and FastAPI.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Crafting intuitive and visually appealing user interfaces that enhance user engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>Flutter & Dart - 85%</li>
-      <li>Python - 75%</li>
-      <li>FastAPI & Backend - 80%</li>
-      <li>HTML, CSS, JS - 90%</li>
-    </ul>
-  </section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I'm Tanvir, the founder of MAHIN LTD. We are a technology-driven company dedicated to delivering exceptional digital products. My expertise lies in full-stack development, from conceptualizing intuitive UI/UX designs to implementing powerful backend systems. We partner with clients to transform their ideas into reality, ensuring every project is delivered with the highest standard of quality and professionalism.
+                </p>
+            </div>
+        </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>My Latest Projects</h2>
-    <div class="projects-grid">
-      <div class="project">
-        <img src="images/project.png" alt="Project">
-        <h3>Turnify - Local Music Player</h3>
-        <p>A Flutter based local-first music player with modern UI/UX.</p>
-      </div>
-      <div class="project">
-        <img src="images/project.png" alt="Project">
-        <h3>YT-DLP Server (Private API)</h3>
-        <p>Custom FastAPI backend with YT-DLP for educational purposes.</p>
-      </div>
-    </div>
-  </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Flutter & Dart</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>FastAPI & Backend</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>HTML, CSS, JS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial">“Tanvir builds professional quality projects!”</div>
-      <div class="testimonial">“Great to work with, delivers on time.”</div>
-      <div class="testimonial">“High quality backend & frontend integration.”</div>
-    </div>
-  </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/project.png" alt="Turnify Project Thumbnail">
+                        <div class="project-info">
+                            <h3>Turnify - Local Music Player</h3>
+                            <p>A sleek and efficient local music player built with Flutter, offering a seamless user experience for offline music listening.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project.png" alt="YT-DLP Server Project Thumbnail">
+                        <div class="project-info">
+                            <h3>YT-DLP Server (Private API)</h3>
+                            <p>A private, high-performance backend server built with FastAPI to interface with YT-DLP, enabling powerful video processing tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Let's Connect</h2>
-    <p>Email: <a href="mailto:info.mahin.ltd@gmail.com">info.mahin.ltd@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/mahinltd" target="_blank">github.com/mahinltd</a></p>
-    <p>Facebook: <a href="https://facebook.com/tanvir8268" target="_blank">fb.com/tanvir8268</a></p>
-  </section>
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p>"Professional quality projects. The attention to detail was outstanding and exceeded all our expectations."</p>
+                        <h4>- John Doe, CEO of TechCorp</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Great to work with, delivers on time. The communication was excellent throughout the entire project lifecycle."</p>
+                        <h4>- Jane Smith, Project Manager</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"High quality backend & frontend integration. The final product was seamless, stable, and incredibly fast."</p>
+                        <h4>- Alex Johnson, Startup Founder</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Tanvir - MAHIN LTD</p>
-  </footer>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p>Have a project in mind? I'd love to hear from you. Reach out via email, social media, or the contact form.</p>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> info.mahin.ltd@gmail.com</li>
+                            <li><i class="fab fa-github"></i> <a href="https://github.com/mahinltd" target="_blank">github.com/mahinltd</a></li>
+                            <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/tanvir8268" target="_blank">facebook.com/tanvir8268</a></li>
+                        </ul>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <script src="js/script.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tanvir - MAHIN LTD</p>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
